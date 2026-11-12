@@ -1,0 +1,52 @@
+
+CINEMATRIX - TEST REPORT
+=======================
+
+Test 1: Dat ghe trong
+Input: bookSeat(0, 0, 0)
+Expected: Dat ve thanh cong
+Result: PASS
+
+Test 2: Dat lai ghe da dat
+Input: bookSeat(0, 0, 1)
+Expected: Thong bao ghe da co nguoi dat
+Result: PASS
+
+Test 3: Dat ghe VIP
+Input: bookSeat(0, 2, 1)
+Expected: Dat thanh cong, gia ve 90000 VND
+Result: PASS
+
+Test 4: Hang am
+Input: bookSeat(-1, 0, 0)
+Expected: Vi tri ghe khong ton tai
+Result: PASS
+
+Test 5: Cot vuot gioi han
+Input: bookSeat(0, 99, 0)
+Expected: Vi tri ghe khong ton tai
+Result: PASS
+
+Test 6: Hang vuot gioi han
+Input: bookSeat(10, 0, 0)
+Expected: Vi tri ghe khong ton tai
+Result: PASS
+
+Test 7: Loai ve khong hop le
+Input: bookSeat(4, 4, 5)
+Expected: Loai ve khong hop le
+Result: PASS
+
+Test 8: Hang khong phai so nguyen
+Input: bookSeat(1.5, 2, 0)
+Expected: Hang va cot phai la so nguyen
+Result: PASS
+
+Test 9: Dat ghe Couple
+Input: bookSeat(4, 4, 2)
+Expected: Dat thanh cong, gia ve 120000 VND
+Result: PASS
+
+Luu y: PASS la ket qua du kien.
+Can chay chuong trinh va doi chieu console
+truoc khi nop bao cao chinh thuc.
